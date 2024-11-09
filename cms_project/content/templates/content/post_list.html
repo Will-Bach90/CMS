@@ -6,4 +6,5 @@
             <li><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
+    <a href="{% url 'post_create' %}">Create a New Post</a>
 {% endblock %}
